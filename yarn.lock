@@ -1170,6 +1170,13 @@
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha1-daLotRy3WKdVPWgEpZMteqznXDk=
 
+"@egjs/hammerjs@^2.0.17":
+  version "2.0.17"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@egjs/hammerjs/-/hammerjs-2.0.17.tgz#5dc02af75a6a06e4c2db0202cae38c9263895124"
+  integrity sha1-XcAq91pqBuTC2wICyuOMkmOJUSQ=
+  dependencies:
+    "@types/hammerjs" "^2.0.36"
+
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
@@ -1532,6 +1539,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@notifee/react-native@5.3.0":
+  version "5.3.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@notifee/react-native/-/react-native-5.3.0.tgz#79d20e2d9d383d45de3efd12f616606ac7a31229"
+  integrity sha1-edIOLZ04PUXePv0S9hZgasejEik=
+
 "@react-native-community/cli-clean@12.3.6":
   version "12.3.6"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@react-native-community/cli-clean/-/cli-clean-12.3.6.tgz#e8a7910bebc97266fd5068649013a03958021fc4"
@@ -1867,6 +1879,57 @@
     invariant "^2.2.4"
     nullthrows "^1.1.1"
 
+"@react-navigation/core@^6.4.15":
+  version "6.4.15"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@react-navigation/core/-/core-6.4.15.tgz#312fb00788cd259d17999f859a228e07f2aae020"
+  integrity sha1-MS+wB4jNJZ0XmZ+FmiKOB/Kq4CA=
+  dependencies:
+    "@react-navigation/routers" "^6.1.9"
+    escape-string-regexp "^4.0.0"
+    nanoid "^3.1.23"
+    query-string "^7.1.3"
+    react-is "^16.13.0"
+    use-latest-callback "^0.1.9"
+
+"@react-navigation/elements@^1.3.29":
+  version "1.3.29"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@react-navigation/elements/-/elements-1.3.29.tgz#1dcbd95c319a8990d66e2aef8e108198d7a93cb2"
+  integrity sha1-HcvZXDGaiZDWbirvjhCBmNepPLI=
+
+"@react-navigation/native-stack@^6.9.1":
+  version "6.9.25"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@react-navigation/native-stack/-/native-stack-6.9.25.tgz#b1316a0944963fd62b71029d85ac2012dd60bc58"
+  integrity sha1-sTFqCUSWP9YrcQKdhawgEt1gvFg=
+  dependencies:
+    "@react-navigation/elements" "^1.3.29"
+    warn-once "^0.1.0"
+
+"@react-navigation/native@^6.0.13", "@react-navigation/native@^6.1.16":
+  version "6.1.16"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@react-navigation/native/-/native-6.1.16.tgz#02a37773f917a30b32e512537c6e458e671aced6"
+  integrity sha1-AqN3c/kXowsy5RJTfG5FjmcaztY=
+  dependencies:
+    "@react-navigation/core" "^6.4.15"
+    escape-string-regexp "^4.0.0"
+    fast-deep-equal "^3.1.3"
+    nanoid "^3.1.23"
+
+"@react-navigation/routers@^6.1.9":
+  version "6.1.9"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@react-navigation/routers/-/routers-6.1.9.tgz#73f5481a15a38e36592a0afa13c3c064b9f90bed"
+  integrity sha1-c/VIGhWjjjZZKgr6E8PAZLn5C+0=
+  dependencies:
+    nanoid "^3.1.23"
+
+"@react-navigation/stack@^6.3.28":
+  version "6.3.28"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@react-navigation/stack/-/stack-6.3.28.tgz#f5da48a5673a9f7d18f3e23e38aa6460c1dfcc04"
+  integrity sha1-9dpIpWc6n30Y8+I+OKpkYMHfzAQ=
+  dependencies:
+    "@react-navigation/elements" "^1.3.29"
+    color "^4.2.3"
+    warn-once "^0.1.0"
+
 "@sideway/address@^4.1.5":
   version "4.1.5"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@sideway/address/-/address-4.1.5.tgz#4bc149a0076623ced99ca8208ba780d65a99b9d5"
@@ -1942,6 +2005,11 @@
   integrity sha1-Kga8D2iiCrN7PjaqI4vmq99J6LQ=
   dependencies:
     "@types/node" "*"
+
+"@types/hammerjs@^2.0.36":
+  version "2.0.45"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@types/hammerjs/-/hammerjs-2.0.45.tgz#ffa764bb68a66c08db6efb9c816eb7be850577b1"
+  integrity sha1-/6dku2imbAjbbvucgW63voUFd7E=
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.6"
@@ -2117,6 +2185,39 @@
   version "1.2.0"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha1-dWZBrbWHhRtcyz4JXa8nrlgchAY=
+
+"@zegocloud/react-native-callkeep@4.3.9":
+  version "4.3.9"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@zegocloud/react-native-callkeep/-/react-native-callkeep-4.3.9.tgz#0ba20ca8db6fc798d899854f341ded7f65889dd1"
+  integrity sha1-C6IMqNtvx5jYmYVPNB3tf2WIndE=
+
+"@zegocloud/zego-uikit-prebuilt-call-rn@^4.4.3":
+  version "4.4.3"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@zegocloud/zego-uikit-prebuilt-call-rn/-/zego-uikit-prebuilt-call-rn-4.4.3.tgz#c52fd2bd6fc4b178e10e911986c02b5ad78f9cf7"
+  integrity sha1-xS/SvW/EsXjhDpEZhsArWtePnPc=
+  dependencies:
+    "@notifee/react-native" "5.3.0"
+    "@react-navigation/native" "^6.0.13"
+    "@react-navigation/native-stack" "^6.9.1"
+    "@zegocloud/react-native-callkeep" "4.3.9"
+    react-native-safe-area-context "^4.4.1"
+    react-native-screens "^3.18.2"
+    react-native-sound "^0.11.2"
+
+"@zegocloud/zego-uikit-prebuilt-live-streaming-rn@^2.2.1":
+  version "2.2.1"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@zegocloud/zego-uikit-prebuilt-live-streaming-rn/-/zego-uikit-prebuilt-live-streaming-rn-2.2.1.tgz#b1063d0a9e4dcb63fb92b82c4790a43dffad88c2"
+  integrity sha1-sQY9Cp5Ny2P7krgsR5CkPf+tiMI=
+
+"@zegocloud/zego-uikit-rn@^2.7.4":
+  version "2.7.4"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/@zegocloud/zego-uikit-rn/-/zego-uikit-rn-2.7.4.tgz#f14417e7c38cd7beb6f202d32bc6033dae5f4eb3"
+  integrity sha1-8UQX58OM17628gLTK8YDPa5fTrM=
+  dependencies:
+    react-delegate-component "^1.0.0"
+    zego-express-engine-reactnative "3.2.0"
+    zego-zim-react-native "2.12.1"
+    zego-zpns-react-native "2.5.0-alpha"
 
 abort-controller@^3.0.0:
   version "3.0.0"
@@ -2694,10 +2795,26 @@ color-name@1.1.3:
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
-color-name@~1.1.4:
+color-name@^1.0.0, color-name@~1.1.4:
   version "1.1.4"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
+
+color-string@^1.9.0:
+  version "1.9.1"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/color-string/-/color-string-1.9.1.tgz#4467f9146f036f855b764dfb5bf8582bf342c7a4"
+  integrity sha1-RGf5FG8Db4Vbdk37W/hYK/NCx6Q=
+  dependencies:
+    color-name "^1.0.0"
+    simple-swizzle "^0.2.2"
+
+color@^4.2.3:
+  version "4.2.3"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/color/-/color-4.2.3.tgz#d781ecb5e57224ee43ea9627560107c0e0c6463a"
+  integrity sha1-14HsteVyJO5D6pYnVgEHwODGRjo=
+  dependencies:
+    color-convert "^2.0.1"
+    color-string "^1.9.0"
 
 colorette@^1.0.7:
   version "1.4.0"
@@ -2863,6 +2980,11 @@ decamelize@^1.2.0:
   version "1.2.0"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
+
+decode-uri-component@^0.2.2:
+  version "0.2.2"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha1-5p2+JdN5QRcd1UDgJMREzVGI4ek=
 
 dedent@^1.0.0:
   version "1.5.1"
@@ -3487,6 +3609,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+filter-obj@^1.1.0:
+  version "1.1.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
+  integrity sha1-mzERErxsYSehbgFsbF1/GeCAXFs=
+
 finalhandler@1.1.2:
   version "1.1.2"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/finalhandler/-/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
@@ -3803,6 +3930,13 @@ hermes-profile-transformer@^0.0.6:
   dependencies:
     source-map "^0.7.3"
 
+hoist-non-react-statics@^3.3.0:
+  version "3.3.2"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
+
 html-escaper@^2.0.0:
   version "2.0.2"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
@@ -3911,6 +4045,11 @@ is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
   integrity sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=
+
+is-arrayish@^0.3.1:
+  version "0.3.2"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
+  integrity sha1-RXSirlb3qyBolvtDHq7tBm/fjwM=
 
 is-async-function@^2.0.0:
   version "2.0.0"
@@ -5121,6 +5260,11 @@ ms@2.1.3:
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=
 
+nanoid@^3.1.23:
+  version "3.3.7"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
+  integrity sha1-0MMBppG8jVTvoKIibM8/4v1la9g=
+
 natural-compare-lite@^1.4.0:
   version "1.4.0"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz#17b09581988979fddafe0201e931ba933c96cbb4"
@@ -5532,7 +5676,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.8.1:
+prop-types@^15.6.0, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha1-Z9h78aaU9IQ1zzMsJK8QIUoxQLU=
@@ -5551,6 +5695,16 @@ pure-rand@^6.0.0:
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/pure-rand/-/pure-rand-6.0.4.tgz#50b737f6a925468679bff00ad20eade53f37d5c7"
   integrity sha1-ULc39qklRoZ5v/AK0g6t5T831cc=
 
+query-string@^7.1.3:
+  version "7.1.3"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/query-string/-/query-string-7.1.3.tgz#a1cf90e994abb113a325804a972d98276fe02328"
+  integrity sha1-oc+Q6ZSrsROjJYBKly2YJ2/gIyg=
+  dependencies:
+    decode-uri-component "^0.2.2"
+    filter-obj "^1.1.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
@@ -5568,6 +5722,13 @@ range-parser@~1.2.1:
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=
 
+react-delegate-component@^1.0.0:
+  version "1.0.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-delegate-component/-/react-delegate-component-1.0.0.tgz#c17f9e15afbea4e1d83553bf960f17c8835aaf52"
+  integrity sha1-wX+eFa++pOHYNVO/lg8XyINar1I=
+  dependencies:
+    prop-types "^15.6.0"
+
 react-devtools-core@^4.27.7:
   version "4.28.5"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-devtools-core/-/react-devtools-core-4.28.5.tgz#c8442b91f068cdf0c899c543907f7f27d79c2508"
@@ -5576,12 +5737,17 @@ react-devtools-core@^4.27.7:
     shell-quote "^1.6.1"
     ws "^7"
 
+react-freeze@^1.0.0:
+  version "1.0.4"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-freeze/-/react-freeze-1.0.4.tgz#cbbea2762b0368b05cbe407ddc9d518c57c6f3ad"
+  integrity sha1-y76idisDaLBcvkB93J1RjFfG860=
+
 "react-is@^16.12.0 || ^17.0.0 || ^18.0.0", react-is@^18.0.0, react-is@^18.2.0:
   version "18.2.0"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha1-GZQx7qqi4J+GQn77tPFHPttHYJs=
 
-react-is@^16.13.1:
+react-is@^16.13.0, react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
@@ -5590,6 +5756,40 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
+
+react-native-gesture-handler@^2.15.0:
+  version "2.15.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-native-gesture-handler/-/react-native-gesture-handler-2.15.0.tgz#f8e6c0451a7bdf065edb7b9be605480db402baa0"
+  integrity sha1-+ObARRp73wZe23ub5gVIDbQCuqA=
+  dependencies:
+    "@egjs/hammerjs" "^2.0.17"
+    hoist-non-react-statics "^3.3.0"
+    invariant "^2.2.4"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+
+react-native-keep-awake@4.0.0:
+  version "4.0.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-native-keep-awake/-/react-native-keep-awake-4.0.0.tgz#d89fdc3fb60b3cffa979ef37dc5816196df998a2"
+  integrity sha1-2J/cP7YLPP+pee833FgWGW35mKI=
+
+react-native-safe-area-context@^4.4.1, react-native-safe-area-context@^4.9.0:
+  version "4.9.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-native-safe-area-context/-/react-native-safe-area-context-4.9.0.tgz#21a570ca3594cb4259ba65f93befaa60d91bcbd0"
+  integrity sha1-IaVwyjWUy0JZumX5O++qYNkby9A=
+
+react-native-screens@^3.18.2, react-native-screens@^3.29.0:
+  version "3.29.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-native-screens/-/react-native-screens-3.29.0.tgz#1dee0326defbc1d4ef4e68287abb32a8e6b76b29"
+  integrity sha1-He4DJt77wdTvTmgoersyqOa3ayk=
+  dependencies:
+    react-freeze "^1.0.0"
+    warn-once "^0.1.0"
+
+react-native-sound@^0.11.2:
+  version "0.11.2"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/react-native-sound/-/react-native-sound-0.11.2.tgz#e542dc5b9e16ab4b3ac7e6eaddb1fc8d98da9038"
+  integrity sha1-5ULcW54Wq0s6x+bq3bH8jZjakDg=
 
 react-native@0.73.6:
   version "0.73.6"
@@ -6026,6 +6226,13 @@ signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk=
 
+simple-swizzle@^0.2.2:
+  version "0.2.2"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
+  integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
+  dependencies:
+    is-arrayish "^0.3.1"
+
 sisteransi@^1.0.5:
   version "1.0.5"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
@@ -6076,6 +6283,11 @@ source-map@^0.7.3:
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/source-map/-/source-map-0.7.4.tgz#a9bbe705c9d8846f4e08ff6765acf0f1b0898656"
   integrity sha1-qbvnBcnYhG9OCP9nZazw8bCJhlY=
 
+split-on-first@^1.0.0:
+  version "1.1.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+  integrity sha1-9hCv7uOxK84dDDBCXnY5i3gkml8=
+
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
@@ -6109,6 +6321,11 @@ statuses@~1.5.0:
   version "1.5.0"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
 
 string-length@^4.0.1:
   version "4.0.2"
@@ -6485,6 +6702,11 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+use-latest-callback@^0.1.9:
+  version "0.1.9"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/use-latest-callback/-/use-latest-callback-0.1.9.tgz#10191dc54257e65a8e52322127643a8940271e2a"
+  integrity sha1-EBkdxUJX5lqOUjIhJ2Q6iUAnHio=
+
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -6520,6 +6742,11 @@ walker@^1.0.7, walker@^1.0.8:
   integrity sha1-vUmNtHev5XPcBBhfAR06uKjXZT8=
   dependencies:
     makeerror "1.0.12"
+
+warn-once@^0.1.0:
+  version "0.1.1"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/warn-once/-/warn-once-0.1.1.tgz#952088f4fb56896e73fd4e6a3767272a3fccce43"
+  integrity sha1-lSCI9PtWiW5z/U5qN2cnKj/MzkM=
 
 wcwidth@^1.0.1:
   version "1.0.1"
@@ -6737,3 +6964,18 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=
+
+zego-express-engine-reactnative@3.2.0:
+  version "3.2.0"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/zego-express-engine-reactnative/-/zego-express-engine-reactnative-3.2.0.tgz#e4098a7ff0434110e9363e231d896f4bb0eec900"
+  integrity sha1-5AmKf/BDQRDpNj4jHYlvS7DuyQA=
+
+zego-zim-react-native@2.12.1:
+  version "2.12.1"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/zego-zim-react-native/-/zego-zim-react-native-2.12.1.tgz#7bd0b5b7104e686ce6f56bd8093da19bb0b91300"
+  integrity sha1-e9C1txBOaGzm9WvYCT2hm7C5EwA=
+
+zego-zpns-react-native@2.5.0-alpha:
+  version "2.5.0-alpha"
+  resolved "https://pkgs.dev.azure.com/shopritexmobile/e3ca0e40-23c1-42df-be29-21114fbf21de/_packaging/srx-registry/npm/registry/zego-zpns-react-native/-/zego-zpns-react-native-2.5.0-alpha.tgz#30f8002944823c9bc2265710dd65f32c746fb5c3"
+  integrity sha1-MPgAKUSCPJvCJlcQ3WXzLHRvtcM=
